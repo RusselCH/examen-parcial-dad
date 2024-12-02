@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: ms-categoria-service
+  profiles:
+    active: development
+  config:
+    import: optional:configserver:http/root:789456@localhost:2003
