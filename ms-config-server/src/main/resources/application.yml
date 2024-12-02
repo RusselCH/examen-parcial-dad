@@ -1,0 +1,17 @@
+server:
+  port: 2003
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/RusselCH/examen-parcial-dad.git #Github
+          searchPaths: config-data
+          default-label: main #rama
+  security:
+    user:
+      name: root
+      password: 789456
