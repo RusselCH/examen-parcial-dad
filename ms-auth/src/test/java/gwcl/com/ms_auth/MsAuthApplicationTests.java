@@ -1,10 +1,10 @@
-package rrcc.com.ms_auth_server;
+package gwcl.com.ms_auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsAuthServerApplicationTests {
+class MsAuthApplicationTests {
 
 	@Test
 	void contextLoads() {
